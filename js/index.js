@@ -195,7 +195,10 @@ registerUserName.addEventListener("focusout", () => {
 registerUserName.addEventListener("focusin", () => {
   userNameErrorMsg.setAttribute("style", "display:none;");
 });
-const counter = getData("counter");
+let counter = getData("counter");
+if (!counter) {
+  counter = { userCount: 0, tweetCount: 0 };
+}
 function valid() {
   if (validFullname && validPass && validUSerName) {
     counter.userCount++;
