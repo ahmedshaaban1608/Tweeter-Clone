@@ -142,8 +142,13 @@ const editCurrentTweet = (tweet) => {
   const tweetUpdateBtn = document.querySelector("#tweetEdit .tweetSubmit");
   // show tweet text in the form to edit it
   tweetTextUpdate.value = tweet.text;
+
   tweetUpdateBtn.addEventListener("click", (e) => {
     e.preventDefault();
+    if (tweetTextUpdate.value.length < 1) {
+      alert("You should write something to tweet!!");
+      return;
+    }
     // update tweet text and send it to local storage
     tweet.text = tweetTextUpdate.value;
     setData(tweet.id, tweet);
