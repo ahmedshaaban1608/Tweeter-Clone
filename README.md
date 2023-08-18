@@ -81,3 +81,8 @@ We welcome contributions to enhance the project. If you find any bugs, have feat
 ## Credits
 
 The Twitter Close project is created by Ahmed Shaaban and is based on learning materials from various web development resources.
+
+---
+
+**Disclaimer**: This project is a clone created for educational purposes and is not affiliated with or endorsed by Upwork.
+
