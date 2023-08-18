@@ -84,5 +84,5 @@ The Twitter Close project is created by Ahmed Shaaban and is based on learning m
 
 ---
 
-**Disclaimer**: This project is a clone created for educational purposes and is not affiliated with or endorsed by Upwork.
+**Disclaimer**: This project is a clone created for educational purposes and is not affiliated with or endorsed by Twitter.
 
